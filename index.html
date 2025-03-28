@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#2c3e50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <title>Modern E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" href="https://via.placeholder.com/180">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">ALAM STORE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <section id="hero" class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="C:\Users\za935\Downloads\IMG-20250124-WA0012.jpg"class="d-block w-100" alt="Product 1">
+                    <div class="carousel-caption">
+                        <h2>premium tumi cases</h2>
+                        <p>Discover our amazing collection</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 19.15.22_9d41c88b.jpg" class="d-block w-100" alt="Product 2">
+                    <div class="carousel-caption">
+                        <h2>Shinola detroit</h2>
+                        <p>Limited time offer</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-15 at 09.57.28_b5798a15.jpg"class="d-block w-100" alt="Product 3">
+                    <div class="carousel-caption">
+                        <h2>american flagship</h2>
+                        <p>New arrivals</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="products-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Products</h2>
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-15 at 09.58.17_0bed89f5.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>bamford</h3>
+                            <p class="price">₹200.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 19.15.22_162767ec.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>shinola detroit</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\IMG-20250124-WA0012.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>tumi case</h3>
+                            <p class="price">₹249.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\s-l1600 (3).webp" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>flagship american airlines</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 5 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 19.55.08_104e84bb.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>british white lobdon</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 6 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 19.59.37_6f0e8ac2.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>victorinox</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 7 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 19.47.45_9e835082.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>air france</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 8 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 19.37.09_c0f80061.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>therabody crossbody</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 9 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp_Image_2024-12-02_at_20.46.00_f491601e-removebg-preview.png" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>therabdoy  slim</h3>
+                            <p class="price">₹149.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 10 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\IMG-20250228-WA0015.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tumi laundary bags</h3>
+                            <p class="price">₹139.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 11 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp_Image_2024-12-02_at_20.45.51_87d448dd-removebg-preview.png" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>aqua di parma</h3>
+                            <p class="price">₹149.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 12 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\s-l400.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>ferragamo salvador</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 13 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 18.56.21_c1541bf0.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>want les essential</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 14 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-15 at 09.58.16_8030d29e.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Thearabody heart</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 15 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-15 at 09.57.28_d4e814e7.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>KLM</h3>
+                            <p class="price">₹149.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 16 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-13 at 19.12.23_d91ed52f.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>united away</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 17 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\IMG-20250228-WA0017.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tumi night suits in XL,S/M,L</h3>
+                            <p class="price">₹599.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 18 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2024-12-02 at 17.08.54_717d2f64.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Porsche design</h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 19 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\GXRP2vdXAAEER4f.jpeg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ferragamo leather </h3>
+                            <p class="price">₹199.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 20 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\IMG-20250228-WA0018.jpg"alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tumi pouches</h3>
+                            <p class="price">₹299.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 21 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\IMG-20250228-WA0019.jpg"alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tumi delta </h3>
+                            <p class="price">₹799.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 22 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-02-10 at 17.43.53_f9e3738c.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Emirates slim crossbody</h3>
+                            <p class="price">₹149.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 23 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp Image 2025-03-26 at 20.27.32_c87912e7.jpg" alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>shinola flat</h3>
+                            <p class="price">₹149.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 24 -->
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="C:\Users\za935\Downloads\WhatsApp_Image_2024-12-02_at_20.45.54_a085f6e1-removebg-preview.png"alt="Product">
+                            <div class="product-overlay">
+                                <a href="https://zub98.github.io/whatsapp-page/" class="btn btn-light">View Details</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>koskela green</h3>
+                            <p class="price">₹149.99</p>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Your trusted destination for premium products and services.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Home</a></li>
+                        <li><a href="#" class="text-light">Products</a></li>
+                        <li><a href="#" class="text-light">About</a></li>
+                        <li><a href="#" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: za93548151@gmail.com<br>
+                    Phone: (+91)7428214138</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
